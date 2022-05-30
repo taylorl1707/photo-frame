@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+body {
+  margin: 0;
+
+  font-family: 'Comic Sans MS';
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.image-list-container {
+  border-top: 2px solid $color-primary;
+  overflow: auto;
+
+  .image-list {
+    padding: 1rem 1rem;
+    display: -webkit-inline-box;
+
+    .file-add-btn {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: 2px solid $color-primary;
+
+      box-sizing: border-box;
+
+      color: $color-primary;
+
+      line-height: $img-size;
+      text-align: center;
+      font-size: 2rem;
+
+      cursor: pointer;
+
+      display: block;
+      width: $img-size;
+      height: $img-size;
+    }
+  }
+}
